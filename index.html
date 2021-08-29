@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Lev3_2_projekt_js-vertiefung_optimalgewicht-rechner</title>
+</head>
+<body>
+    <fieldset>
+        <h3>Idealgewichtsrechner</h3>
+        <form action="">
+
+            <label for=""><h3>Körpergröße in cm</h3></label>
+            <input type="number" id="size" placeholder="180">
+            
+            <label for=""><h3>Alter</h3></label>
+            <input type="number" name="" id="age" placeholder="36">
+
+            <label for=""><h3>Körperbau</h3></label>
+
+
+            <input type="radio" name="Körperbau" id="breit" value="1">
+            <label for="">breit</label>
+
+            <input type="radio" name="Körperbau" id="schmal" value="2">
+            <label for="">schmal</label>
+
+        </form>
+        <input type="button" value="Submit" onclick="calculate()">
+        <div id="result"></div>
+    </fieldset>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
